@@ -1,6 +1,8 @@
 #include <Servo.h>
 
 /**
+* https://github.com/Cantorstaub/Lidar-on-Wheels
+*
 * This is code for the Arduino of the Lidar on Wheels robot built at the
 * Virtual Humanities Lab at the Ruhr-University Bochum.
 *
@@ -15,7 +17,10 @@
 * the robot to the sensitivity of the LiDAR sensor. To make our robot move
 * more smoothly and avoid disturbing the LiDAR measurements, we added two
 * new functions: void brake_forward_smoothly() and void backwards_start_smoothly().
-* Our changes to the code are marked with the abbreviations TN or AS. 
+* Our changes to the code are marked with the abbreviations TN or AS.
+*
+* Note: This code was not checked for functionality after revising its
+* commentary for GitHub.
 */
 
 /**
@@ -112,7 +117,7 @@ int average = 0;
 
 // Grab four measurements of distance and calculate
 // the average.
-for (int i = 0; i < 1; i++) { //changed from 4 to 1 measurement due to technical issues with the 4 measurements (TN and AS)
+for (int i = 0; i < 1; i++) { // changed from 4 to 1 measurement due to technical issues with the 4 measurements (TN and AS)
 
 // Make the Trigger LOW (0 volts)
 // for 2 microseconds
@@ -153,7 +158,7 @@ delay(10);
 
 // Return the average of the four distance
 // measurements
-return (average / 1); //changed from 4 to 1
+return (average / 1); //changed from 4 measurements to 1 measurement
 }
 
 /*
@@ -185,7 +190,7 @@ right_servo.write(93);
 left_servo.write(93);
 }
 
-void brake_forward_smoothly() { //function to make the stopping of the robot smoother to not shake Lidar sensor (TN)
+void brake_forward_smoothly() { // function to render the stopping of the robot smoother to not shake the LiDAR sensor (TN)
 for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 - i;
 	speed_left_servo = 93 + i;
@@ -195,7 +200,7 @@ for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and s
 	}
 }
 
-void backwards_start_smoothly() { //function to make the start of going backwards smoother to not shake Lidar sensor (TN)
+void backwards_start_smoothly() { // function to render the start of going backwards smoother to not shake the LiDAR sensor (TN)
 for (int i = 1; i < 3; i++){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 + i;
 	speed_left_servo = 93 - i;
