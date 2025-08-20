@@ -99,7 +99,7 @@ go_forward(); // Move forward
 }
 delay(50); // Wait 50 milliseconds before pinging again
 }
-// I chose 2678 ms here because that could result in the robot turning about 75°, which is the value I want to test out (TN)
+// I chose 2678 ms here because theoretically this value should result in the robot turning about 75°, which seems suitable (TN)
 
 /*
 * Returns the distance to the obstacle as an integer
@@ -110,7 +110,7 @@ int average = 0;
 
 // Grab four measurements of distance and calculate
 // the average.
-for (int i = 0; i < 1; i++) { //changed from 4 to 1
+for (int i = 0; i < 1; i++) { //changed from 4 to 1 measurement due to technical issues with the 4 measurements (TN and AS)
 
 // Make the Trigger LOW (0 volts)
 // for 2 microseconds
