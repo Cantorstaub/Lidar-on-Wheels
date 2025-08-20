@@ -1,6 +1,18 @@
 #include <Servo.h>
 
 /**
+* This is code for the Lidar on Wheels robot built at the Virtual Humanities Lab
+* at the Ruhr-University Bochum.
+* We did not write this code ourselves but retrieved it from
+* @author Addison Sears-Collins
+* @version 1.0 2019-05-13
+* All the credit goes to Sears-Collins and his instructive tutorials.
+* As we encountered technical issues (not related to the tutorials we used),
+* we had to make some minor changes. They are marked with the abbreviations
+* TN or AS.
+*/
+
+/**
 * This robot avoids obstacles
 * using an ultrasonic sensor.
 *
