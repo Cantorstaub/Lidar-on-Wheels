@@ -1,15 +1,19 @@
 #include <Servo.h>
 
 /**
-* This is code for the Lidar on Wheels robot built at the Virtual Humanities Lab
-* at the Ruhr-University Bochum.
+* This is code for the Arduino of the Lidar on Wheels robot built at the
+* Virtual Humanities Lab at the Ruhr-University Bochum.
+*
 * We did not write this code ourselves but retrieved it from
 * @author Addison Sears-Collins
 * @version 1.0 2019-05-13
 * All the credit goes to Sears-Collins and his instructive tutorials.
+*
 * As we encountered technical issues (not related to the tutorials we used),
 * we had to make some minor changes. They are marked with the abbreviations
-* TN or AS.
+* TN or AS. To make our robot go smoother in order not to disturb the
+* LiDAR measurements by moving too abruptly, we added two new functions:
+* void brake_forward_smoothly() and void backwards_start_smoothly().
 */
 
 /**
@@ -75,11 +79,11 @@ int distance = doPing();
 if (distance >= 0 && distance <= 2) {
 Serial.println("Obstacle detected ahead");
 brake_forward_smoothly(); // Calling function to brake smoothly (TN)
-stop_all(); // Calling this function to generate some delay to make the robot change directions smoother to not disturb Lidar (TN)
+stop_all(); // Calling this function to generate some delay to make the robot change directions smoother not to disturb Lidar (TN)
 delay(100); // Adding some delay (TN)
-backwards_start_smoothly(); // Additional function called to make robot's start to move backwards more smoothely.
+backwards_start_smoothly(); // Additional function call to render the robot's start when going to move backwards more smoothely.
 go_backwards(); // Move in reverse for 0.5 seconds
-delay(1500); // WIR ERHÖHEN DIESEN WERT von 500 höher (TN, AS)
+delay(1500); // We increased this value from 500 up to 1500 (TN, AS)
 stop_all();
 delay(300);
 
@@ -90,7 +94,7 @@ go_right(); // Turn right for one second
 else {
 go_left(); // Turn left for one second
 }
-delay(2678); // changed this from 1000 as the speed for turning was reduced (TN)
+delay(2678); // changed this from 1000 to 2678 as the speed for turning was reduced (TN)
 go_forward(); // Move forward
 }
 delay(50); // Wait 50 milliseconds before pinging again
