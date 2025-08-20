@@ -10,10 +10,12 @@
 * All the credit goes to Sears-Collins and his instructive tutorials.
 *
 * As we encountered technical issues (not related to the tutorials we used),
-* we had to make some minor changes. They are marked with the abbreviations
-* TN or AS. To make our robot go smoother in order not to disturb the
-* LiDAR measurements by moving too abruptly, we added two new functions:
-* void brake_forward_smoothly() and void backwards_start_smoothly().
+* we had to make some changes to the way the data of the ultrasonic sensor
+* is processed. Some minor changes were necessary to adapt the movements of
+* the robot to the sensitivity of the LiDAR sensor. To make our robot move
+* more smoothly and avoid disturbing the LiDAR measurements, we added two
+* new functions: void brake_forward_smoothly() and void backwards_start_smoothly().
+* Our changes to the code are marked with the abbreviations TN or AS. 
 */
 
 /**
@@ -183,7 +185,7 @@ right_servo.write(93);
 left_servo.write(93);
 }
 
-void brake_forward_smoothly() { //funtion to make the stopping of the robot smoother to not shake Lidar sensor (TN)
+void brake_forward_smoothly() { //function to make the stopping of the robot smoother to not shake Lidar sensor (TN)
 for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 - i;
 	speed_left_servo = 93 + i;
@@ -193,7 +195,7 @@ for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and s
 	}
 }
 
-void backwards_start_smoothly() { //funtion to make the start of going backwards smoother to not shake Lidar sensor (TN)
+void backwards_start_smoothly() { //function to make the start of going backwards smoother to not shake Lidar sensor (TN)
 for (int i = 1; i < 3; i++){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 + i;
 	speed_left_servo = 93 - i;
