@@ -21,6 +21,11 @@
 *
 * Note: This code was not checked for functionality after revising its
 * commentary for GitHub.
+* 
+* Important: This code is designed in regard to the material specifications of
+* our robot. This means, the values for the servo-motors are set to compensate
+* for the fact that these servo-motors are not perfectly calibrated. If you use
+* this code on another robot, this might result in deviating movements.
 */
 
 /**
@@ -35,7 +40,7 @@
 Servo right_servo;
 Servo left_servo;
 
-// Variables we added to use in the function void backwards_start_smoothly() (TN)
+// Variables we added to use in the functions we addded to go more smoothly (TN)
 int speed_right_servo = 93;
 int speed_left_servo = 93;
 
@@ -52,7 +57,7 @@ int speed_left_servo = 93;
 
 /*
 * This setup code is run only once, when
-* Arudino is supplied with power.
+* Arduino is supplied with power.
 */
 
 void setup(){
@@ -85,12 +90,12 @@ int distance = doPing();
 // If obstacle <= 2 inches away
 if (distance >= 0 && distance <= 2) {
 Serial.println("Obstacle detected ahead");
-brake_forward_smoothly(); // Calling function to brake smoothly (TN)
+brake_forward_smoothly(); // Calling this function to brake smoothly (TN)
 stop_all(); // Calling this function to generate some delay to make the robot change directions smoother not to disturb Lidar (TN)
 delay(100); // Adding some delay (TN)
 backwards_start_smoothly(); // Additional function call to render the robot's start when going to move backwards more smoothely.
 go_backwards(); // Move in reverse for 0.5 seconds
-delay(1500); // We increased this value from 500 up to 1500 (TN, AS)
+delay(5333); // We increased this value from 500 up to 1500 (TN, AS)
 stop_all();
 delay(300);
 
@@ -101,12 +106,11 @@ go_right(); // Turn right for one second
 else {
 go_left(); // Turn left for one second
 }
-delay(2678); // changed this from 1000 to 2678 as the speed for turning was reduced (TN)
+delay(17000); // changed this from 1000 as the speed for turning was reduced (TN); before speed was reduced to +-1 I used 2678 ms here
 go_forward(); // Move forward
 }
 delay(50); // Wait 50 milliseconds before pinging again
 }
-// I chose 2678 ms here because theoretically this value should result in the robot turning about 75°, which seems suitable (TN)
 
 /*
 * Returns the distance to the obstacle as an integer
@@ -158,31 +162,31 @@ delay(10);
 
 // Return the average of the four distance
 // measurements
-return (average / 1); //changed from 4 measurements to 1 measurement
+return (average / 1); // changed from 4 to 1 measurement due to technical issues with the 4 measurements (TN and AS)
 }
 
 /*
-* Forwards, backwards, right, left, stop.
+* Forwards, backwards, right, left, stop, going smoother.
 */
 
 void go_forward() {
-right_servo.write(90);
-left_servo.write(96);
-}
-
-void go_backwards() {
-right_servo.write(96);
-left_servo.write(90);
-}
-
-void go_right() {
-right_servo.write(95);
+right_servo.write(91);
 left_servo.write(95);
 }
 
-void go_left() {
-right_servo.write(91);
+void go_backwards() {
+right_servo.write(95);
 left_servo.write(91);
+}
+
+void go_right() {
+right_servo.write(94);
+left_servo.write(94);
+}
+
+void go_left() {
+right_servo.write(92);
+left_servo.write(92);
 }
 
 void stop_all() {
@@ -190,8 +194,10 @@ right_servo.write(93);
 left_servo.write(93);
 }
 
+// The two functions we added for smoother movements to not disturb the measurements with LiDAR:
+
 void brake_forward_smoothly() { // function to render the stopping of the robot smoother to not shake the LiDAR sensor (TN)
-for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and subtracted from the speed of the servos
+for (int i = 1; i > 0; i--){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 - i;
 	speed_left_servo = 93 + i;
 	right_servo.write(speed_right_servo);
@@ -200,8 +206,8 @@ for (int i = 2; i > 0; i--){ // for loop to create int i that can be added and s
 	}
 }
 
-void backwards_start_smoothly() { // function to render the start of going backwards smoother to not shake the LiDAR sensor (TN)
-for (int i = 1; i < 3; i++){ // for loop to create int i that can be added and subtracted from the speed of the servos
+void backwards_start_smoothly() { // function to render the beginning of backwards movements smoother to not shake the LiDAR sensor (TN)
+for (int i = 1; i < 2; i++){ // for loop to create int i that can be added and subtracted from the speed of the servos
 	speed_right_servo = 93 + i;
 	speed_left_servo = 93 - i;
 	right_servo.write(speed_right_servo);
