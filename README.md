@@ -4,7 +4,11 @@ The Lidar on Wheels is a small experimental device we built in the [Virtual Huma
 
 Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling.[[1]](#_ftn1) The Lidar on Wheels is able to orient itself in a room by using ultrasound detection and an Arduino microcontroller. In addition to this, the robot carries an _RPLidar A1M8_ Sensor and a Jetson Nano Computer.
 
-<img src = "/42-thn-LIDAR-carrier-full-payload-spinning-LIDAR.jpeg?raw=true" width = "600" title = "The Lidar on Wheels with the spinning Lidar sensor on top." alt = "A DIY robot built from red and green metap parts with black antennas attached to it, a lot of cables, and a circular black sensor on top."/>
+<img src = "/42-thn-LIDAR-carrier-full-payload-spinning-LIDAR.jpeg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
+
+_The Lidar on Wheels with the spinning Lidar sensor on top._
+
+alt = "A DIY robot built from red and green metap parts with black antennas attached to it, a lot of cables, and a circular black sensor on top.
 
 <img src = "/Abb. 4.3 Schema des LoW-Roboters in Seitenansicht.jpg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
 
