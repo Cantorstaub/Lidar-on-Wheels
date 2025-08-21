@@ -4,7 +4,7 @@ The Lidar on Wheels is a small experimental device we built in the [Virtual Huma
 
 The inner core of the robot is based on instructions by Gordon McComb, consisting of a small vehicle with two servomotors, an ultrasonic sensor for the detection of obstacles, and an Arduino microcontroller.
 
-<img src = "/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "600" title = "The 'McComb-robot' is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
+<img src = "/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "500" title = "The 'McComb-robot' is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
 
 
 
