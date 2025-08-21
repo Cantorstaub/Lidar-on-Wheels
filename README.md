@@ -1,6 +1,6 @@
 # Lidar on Wheels
 
-The LoW
+The Lidar on Wheels is a small experimental device we built in the 
 
 Pictures
 
