@@ -2,6 +2,8 @@
 
 The Lidar on Wheels is a small experimental device we built in the [Virtual Humanities Lab](https://vhl.blogs.ruhr-uni-bochum.de/) at _Ruhr-University Bochum_ in 2023 and 2024.
 
+Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling. __Buch__ The Lidar on Wheels is able to orient itself in a room by using ultrasound detection. Separated from this way of engagement with its environemnet the Lidar on Wheels carries an 
+
 The inner core of the robot is based on instructions by Gordon McComb, consisting of a small vehicle with two servomotors, an ultrasonic sensor for the detection of obstacles, and an Arduino microcontroller.
 
 <img src = "/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "500" title = "The 'McComb-robot' is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
