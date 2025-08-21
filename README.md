@@ -28,6 +28,8 @@ _On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here w
 
 Pictures
 
+<img src = "/1-IMG_0317-Collage-1-oben(2-Bilder).jpeg?raw=true" width = "400" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
+
 ## Further Reading
 
 Arduino Text
