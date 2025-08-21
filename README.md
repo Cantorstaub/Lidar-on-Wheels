@@ -1,10 +1,12 @@
 # Lidar on Wheels
 
-The Lidar on Wheels is a small experimental device we built in the 
+The Lidar on Wheels is a small experimental device we built in the [Virtual Humanities Lab](https://vhl.blogs.ruhr-uni-bochum.de/) at _Ruhr-University Bochum_ in 2023 and 2024.
+
+The inner core of the robot is based on instructions by Gordon McComb, consisting of a small vehicle with two servomotors, an ultrasonic sensor for the detection of obstacles, and an Arduino microcontroller.
+
+
 
 Pictures
-
-Link to Videos and to the Lab book
 
 ## Further Reading
 
@@ -13,3 +15,8 @@ Arduino Text
 Labbook Text
 
 Roboterbuch
+
+Link to Videos and to the Lab book
+
+## References
+
