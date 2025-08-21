@@ -2,7 +2,7 @@
 
 The Lidar on Wheels is a small experimental device we built in the [Virtual Humanities Lab](https://vhl.blogs.ruhr-uni-bochum.de/) at _Ruhr-University Bochum_ in 2023 and 2024.
 
-Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling.[^1] __Buch__ The Lidar on Wheels is able to orient itself in a room by using ultrasound detection and an Arduino microcontroller. In addition to this, the robot carries an _RPLidar A1M8_ Sensor and a Jetson Nano Computer. 
+Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling.[[1]](#_ftn1) __Buch__ The Lidar on Wheels is able to orient itself in a room by using ultrasound detection and an Arduino microcontroller. In addition to this, the robot carries an _RPLidar A1M8_ Sensor and a Jetson Nano Computer. 
 
 While the robot is moving, the Lidar sensor detects this environment and creates a map of the room. Importantly, the ultrasonic sensor and the Arduino, on the one hand, and the Lidar sensor and the Jetson Nano, on the other, are separated in the current state of the robot. I.e., the Lidar sensor sits like a parasite on the Lidar on Wheels, profiting from movements of the robot when measuring the room, but not providing the robot with any data in return.
 
@@ -26,4 +26,4 @@ Link to Videos and to the Lab book
 
 ## References
 
-[^1]
+[[1]](#_ftnref1)
