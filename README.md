@@ -40,7 +40,7 @@ The documentation of building the Lidar on Wheels is part of the publicly access
 
 [[2]](#_ftnref2) For the role of a laboratory like the Virtual Humanities Lab within the Humanities, see Engemann, Christoph/Kokot, Sylvia/Nyckel, Thomas/Shnayien, Mary/Sprenger, Florian (2022): Lab Books. In Emerson, Lori/Parikka, Jussi/Wershler, Darren (eds.): _The Lab Book_. University of Minnesota Press, Minneapolis. Download from: [https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650](https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650) (last accessed: 2022-03-03).
 
-[[3]](#_ftnref3) The research in the Virtual Humanities lab, including the building of the Lidar on Wheels, is going to be presented in: Engemann, Christoph/Fehrenbacher, Jens/Merkle, Benedikt/Nyckel, Thomas/Schmiedel, Alex/Sprenger, Florian (eds.): _Roboter bauen. Ein medienwissenschaftlicher Experimentalbericht zur Visualisierung von Umgebungen_. Bielefeld: transcript, _forthcoming_.
+[[3]](#_ftnref3) The research in the Virtual Humanities Lab, including the building of the Lidar on Wheels, is going to be presented in: Engemann, Christoph/Fehrenbacher, Jens/Merkle, Benedikt/Nyckel, Thomas/Schmiedel, Alex/Sprenger, Florian (eds.): _Roboter bauen. Ein medienwissenschaftlicher Experimentalbericht zur Visualisierung von Umgebungen_. Bielefeld: transcript, _forthcoming_.
 
 [[4]](#_ftnref4) McComb, Gordon (2018): _How to Make a Robot_. Edited by Robert Stewart. San Francisco: Maker Media, Inc.
 
