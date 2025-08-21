@@ -32,7 +32,8 @@ The documentation of building the Lidar on Wheels is part of the publicly access
 
 ## References
 
-[[1]](#_ftnref1) Arduino Text
+[[1]](#_ftnref1) Engemann, Christoph/Kokot, Sylvia/Nyckel, Thomas/Shnayien, Mary/Sprenger, Florian (2022): Arduino. In Emerson, Lori/Parikka, Jussi/Wershler, Darren (ed.): _The Lab Book_. University of Minnesota Press, Minneapolis. Downladed from: https://manifold.umn.edu/read/arduino/section/bfff3735-f3f7-4584-a14c-6ef1048b413f (last access 2022-03-03).
+
 
 [[2]](#_ftnref2) Labbook Text
 
