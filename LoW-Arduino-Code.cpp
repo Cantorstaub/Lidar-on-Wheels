@@ -3,6 +3,8 @@
 /**
 * https://github.com/Cantorstaub/Lidar-on-Wheels
 *
+* version 1.0
+*
 * This is code for the Arduino of the Lidar on Wheels robot built at the
 * Virtual Humanities Lab at the Ruhr-University Bochum.
 *
