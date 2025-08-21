@@ -12,7 +12,7 @@ _The Lidar on Wheels._
 
 _A schematic of the Lidar on Wheels, by courtesy of Alex Wynne Schmiedel._
 
-While the robot is moving, the Lidar sensor detects this environment and creates a map of the room. Importantly, the ultrasonic sensor and the Arduino, on the one hand, and the Lidar sensor and the Jetson Nano, on the other, are separated in the current state of the robot. I.e., the Lidar sensor sits like a parasite on the Lidar on Wheels, profiting from movements of the robot when measuring the room, but not providing the robot with any data in return.
+While the robot is moving, the Lidar sensor detects the environment and creates a map of the room. Importantly, the ultrasonic sensor and the Arduino, on the one hand, and the Lidar sensor and the Jetson Nano, on the other, are separated in the current state of the robot. I.e., the Lidar sensor sits like a parasite on the Lidar on Wheels, profiting from movements of the robot when measuring the room, but not providing the robot with any data in return.
 
 The inner core of the robot is based on instructions by Gordon McComb, consisting of a small vehicle with two servomotors, the ultrasonic sensor for obstacle detection, and the Arduino microcontroller.[[4]](#_ftn4) From here, we expanded and reconfigured this small robot by constructing a metal case to carry the Lidar sensor and the Jetson Nano.
 
