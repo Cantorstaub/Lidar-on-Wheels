@@ -10,7 +10,7 @@ The inner core of the robot is based on instructions by Gordon McComb, consistin
 
 <img src = "/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "400" title = "The 'McComb-robot' is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
 
-
+> The 'McComb-robot' is the inner core of the Lidar on Wheels.
 
 Pictures
 
