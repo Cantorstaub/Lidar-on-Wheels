@@ -26,6 +26,8 @@ _On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here w
 
 Videos documenting the experiments with the Lidar on Wheels in different stages of the project can be found here: [https://www.youtube.com/playlist?list=PLBpJOCl1qHFmsX3ri1GjrMHeQ4H1Vg29k](https://www.youtube.com/playlist?list=PLBpJOCl1qHFmsX3ri1GjrMHeQ4H1Vg29k)
 
+The documentation of building the Lidar on Wheels is part of the publicly accessible lab book of the Virtual Humanities Lab. As the links to the lab book are not stable, please use the link to it within the [main page of the Lab](https://vhl.blogs.ruhr-uni-bochum.de/).
+
 ## References
 
 [[1]](#_ftnref1) Arduino Text
