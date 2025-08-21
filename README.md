@@ -39,3 +39,5 @@ The documentation of building the Lidar on Wheels is part of the publicly access
 [[3]](#_ftnref3) The research in the Virtual Humanities lab, including the building of the Lidar on Wheels, is going to be presented in: Engemann, Christoph/Fehrenbacher, Jens/Merkle, Benedikt/Nyckel, Thomas/Schmiedel, Alex/Sprenger, Florian (eds.): _Roboter bauen. Ein medienwissenschaftlicher Experimentalbericht zur Visualisierung von Umgebungen_. Bielefeld: transcript, _forthcoming_.
 
 [[4]](#_ftnref4) McComb, Gordon (2018): How to Make a Robot. Edited by Robert Stewart. San Francisco: Maker Media, Inc.
+
+_last edit_: 2025-08-21
