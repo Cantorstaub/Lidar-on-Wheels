@@ -2,6 +2,8 @@
 
 The Lidar on Wheels is a small experimental device we built in the [Virtual Humanities Lab](https://vhl.blogs.ruhr-uni-bochum.de/) at _Ruhr-University Bochum_ in 2023 and 2024.
 
+<img src = "/thn-EXP-LIDAR-8-Carrier-full-payload-ready-to-go.jpeg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
+
 Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling.[[1]](#_ftn1) The Lidar on Wheels is able to orient itself in a room by using ultrasound detection and an Arduino microcontroller. In addition to this, the robot carries an _RPLidar A1M8_ Sensor and a Jetson Nano Computer.
 
 <img src = "/Abb. 4.3 Schema des LoW-Roboters in Seitenansicht.jpg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
