@@ -20,9 +20,9 @@ The inner core of the robot is based on instructions by Gordon McComb, consistin
 
 _The 'McComb-robot' is the inner core of the Lidar on Wheels._
 
-<img src = "/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "500" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
+<img src = "/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "500" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
 
-_On the left, the Lidar on Wheels built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013._
+_On the left, the Lidar on Wheels built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013._
 
 ---
 
@@ -38,7 +38,7 @@ The documentation of building the Lidar on Wheels is part of the publicly access
 
 [[1]](#_ftnref1) For more information on the Arduino, see Engemann, Christoph/Kokot, Sylvia/Nyckel, Thomas/Shnayien, Mary/Sprenger, Florian (2022): Arduino. In Emerson, Lori/Parikka, Jussi/Wershler, Darren (eds.): _The Lab Book_. University of Minnesota Press, Minneapolis. Download from: [https://manifold.umn.edu/read/arduino/section/bfff3735-f3f7-4584-a14c-6ef1048b413f](https://manifold.umn.edu/read/arduino/section/bfff3735-f3f7-4584-a14c-6ef1048b413f) (last accessed: 2022-03-03).
 
-[[2]](#_ftnref2) For the role of a laboratory like the Virtual Humanities lab within the Humanities, see Engemann, Christoph/Kokot, Sylvia/Nyckel, Thomas/Shnayien, Mary/Sprenger, Florian (2022): Lab Books. In Emerson, Lori/Parikka, Jussi/Wershler, Darren (eds.): _The Lab Book_. University of Minnesota Press, Minneapolis. Download from: [https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650](https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650) (last accessed: 2022-03-03).
+[[2]](#_ftnref2) For the role of a laboratory like the Virtual Humanities Lab within the Humanities, see Engemann, Christoph/Kokot, Sylvia/Nyckel, Thomas/Shnayien, Mary/Sprenger, Florian (2022): Lab Books. In Emerson, Lori/Parikka, Jussi/Wershler, Darren (eds.): _The Lab Book_. University of Minnesota Press, Minneapolis. Download from: [https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650](https://manifold.umn.edu/read/lab-books/section/5a4b990c-0eb9-4356-b3b0-0dac55d0d650) (last accessed: 2022-03-03).
 
 [[3]](#_ftnref3) The research in the Virtual Humanities lab, including the building of the Lidar on Wheels, is going to be presented in: Engemann, Christoph/Fehrenbacher, Jens/Merkle, Benedikt/Nyckel, Thomas/Schmiedel, Alex/Sprenger, Florian (eds.): _Roboter bauen. Ein medienwissenschaftlicher Experimentalbericht zur Visualisierung von Umgebungen_. Bielefeld: transcript, _forthcoming_.
 
