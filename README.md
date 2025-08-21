@@ -26,10 +26,6 @@ _The 'McComb-robot' is the inner core of the Lidar on Wheels._
 
 _On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013._
 
-Pictures
-
-<img src = "/1-IMG_0317-Collage-1-oben(2-Bilder).jpeg?raw=true" width = "400" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
-
 ## Further Reading
 
 Arduino Text
