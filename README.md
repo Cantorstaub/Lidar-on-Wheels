@@ -2,7 +2,7 @@
 
 The Lidar on Wheels is a small experimental device we built in the [Virtual Humanities Lab](https://vhl.blogs.ruhr-uni-bochum.de/) at _Ruhr-University Bochum_ in 2023 and 2024.
 
-<img src = "/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "400" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
+<img src = "/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "600" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
 
 _On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at the Humboldt University of Berlin in 2013._
 
