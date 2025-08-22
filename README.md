@@ -44,4 +44,4 @@ The documentation of building the Lidar on Wheels is part of the publicly access
 
 [[4]](#_ftnref4) McComb, Gordon (2018): _How to Make a Robot_. Edited by Robert Stewart. San Francisco: Maker Media, Inc.
 
-_last edit_: 2025-08-21
+_Last edit_: 2025-08-22
