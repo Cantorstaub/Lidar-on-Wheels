@@ -3,7 +3,7 @@
 /**
 * https://github.com/Cantorstaub/Lidar-on-Wheels
 *
-* version 1.0
+* version 1.1
 *
 * This is code for the Arduino of the Lidar on Wheels robot built at the
 * Virtual Humanities Lab at the Ruhr-University Bochum.
@@ -19,7 +19,8 @@
 * the robot to the sensitivity of the LiDAR sensor. To make our robot move
 * more smoothly and avoid disturbing the LiDAR measurements, we added two
 * new functions: void brake_forward_smoothly() and void backwards_start_smoothly().
-* Our changes to the code are marked with the abbreviations TN or AS.
+* Our changes to the code are marked with the abbreviations TN or AS. All
+* changes made by Thomas Nyckel and Alex Wynne Schmiedel.
 *
 * Note: This code was not checked for functionality after revising its
 * commentary for GitHub.
