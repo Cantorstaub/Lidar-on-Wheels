@@ -8,7 +8,7 @@ This robot is able to orient itself in a room by using ultrasound detection and 
 
 _The Lidar on Wheels._
 
-<img src = "/Abb. 4.3 Schema des LoW-Roboters in Seitenansicht.jpg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
+<img src = "/Pictures/Abb. 4.3 Schema des LoW-Roboters in Seitenansicht.jpg?raw=true" width = "600" title = "A schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel." alt = "A black and white schematic of the Lidar on Wheels, created by and by courtesy of Alex Wynne Schmiedel."/>
 
 _A schematic of the Lidar on Wheels, by courtesy of Alex Wynne Schmiedel._
 
