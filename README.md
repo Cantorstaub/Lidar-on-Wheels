@@ -20,7 +20,7 @@ The inner core of the robot is based on instructions by Gordon McComb, consistin
 
 _The 'McComb-robot' is the inner core of the Lidar on Wheels._
 
-<img src = "/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "500" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
+<img src = "/Pictures/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "500" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
 
 _On the left, the Lidar on Wheels built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013._
 
