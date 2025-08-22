@@ -4,7 +4,7 @@ The Lidar on Wheels is a small experimental device built in the [Virtual Humanit
 
 This robot is able to orient itself in a room by using ultrasound detection and an Arduino microcontroller.[[2]](#_ftn2) In addition to this, it carries an RPLidar A1M8 sensor and a Jetson Nano Computer. Building this robot and experimenting with its behaviour was an integral part of our research on the media theoretical implications of sensors, autonomous vehicles, and the effects of scaling.[[3]](#_ftn3)
 
-<img src = "/thn-EXP-LIDAR-14-LIDAR-Carrier-standing.jpeg?raw=true" width = "600" title = "The Lidar on Wheels." alt = "A DIY robot made of red and green metal parts with electronic devices on top."/>
+<img src = "/Pictures/thn-EXP-LIDAR-14-LIDAR-Carrier-standing.jpeg?raw=true" width = "600" title = "The Lidar on Wheels." alt = "A DIY robot made of red and green metal parts with electronic devices on top."/>
 
 _The Lidar on Wheels._
 
