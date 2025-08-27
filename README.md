@@ -16,9 +16,9 @@ While the robot is moving, the Lidar sensor detects the environment and creates 
 
 The inner core of the robot is based on instructions by Gordon McComb, consisting of a small vehicle with two servomotors, the ultrasonic sensor for obstacle detection, and the Arduino microcontroller.[[4]](#_ftn4) From here, we expanded and reconfigured this small robot by constructing a metal case to carry the Lidar sensor and the Jetson Nano.
 
-<img src = "/Pictures/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "350" title = "The 'McComb-robot' is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
+<img src = "/Pictures/18-als-thn-IMG_9466-cover-mccomb-ultrasound-posing.jpg?raw=true" width = "350" title = "The »McComb-robot« is the inner core of the Lidar on Wheels." alt = "A small DIY robot with two ultrasonic sensors at the front looking like eyes."/>
 
-_The 'McComb-robot' is the inner core of the Lidar on Wheels._
+_The »McComb-robot« is the inner core of the Lidar on Wheels._
 
 <img src = "/Pictures/28-thn-Lidar-carrier-old-and-new.jpeg?raw=true" width = "500" title = "On the left, the Lidar on Wheels we built at the Ruhr-University Bochum, here without Lidar sensor and Jetson Nano computer. On the right, an older robot named ten maly, built in Christian Kassung’s seminar »Theorie und Praxis der Roboter« at Humboldt University of Berlin in 2013." alt = "Two DIY robots made from green and red metal parts."/>
 
